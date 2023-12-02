@@ -2,6 +2,7 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import rocket from "../images/rocket.png";
+import logoLight from "../images/logo_light_primary.png";
 
 function Header() {
   const scrollToCourses = () => {
@@ -18,9 +19,16 @@ function Header() {
       <div className="bg-header w-full h-screen font-dm-sans">
         <div className="lg:flex hidden items-center fixed top-0 w-full">
           <div className="px-10 py-5">
-            <h2 className="text-3xl uppercase text-gradient-primary font-bold">
+            {/* <h2 className="text-3xl uppercase text-gradient-primary font-bold">
               Exponential World
-            </h2>
+            </h2> */}
+            <div className="flex justify-center items-center">
+              <img src={logoLight} alt="Sample" className="w-20 h-20 my-auto" />
+              <div>
+                <p className="text-lg text-white">Exponential</p>
+                <p className="text-lg text-white">World</p>
+              </div>
+            </div>
           </div>
           <div className="flex ml-auto justify-center gap-4 items-center px-10 py-5 text-lg text-black">
             <Link
