@@ -56,7 +56,7 @@ function Courses() {
     <>
       <div
         data-aos="fade-right"
-        className="md:flex block gap-6 justify-center items-center px-5 mt-10 z-50"
+        className="md:flex block gap-6 justify-center items-center px-5 lg:mt-10 -mt-36 z-50"
       >
         <button
           onClick={showInvesting}
