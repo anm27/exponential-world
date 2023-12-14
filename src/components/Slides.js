@@ -35,21 +35,21 @@ export default function SliderIndicatorsOutside() {
             <li>
               <img
                 src={bannerOne}
-                className="lg:w-3/4 max-w-full m-auto"
+                className="lg:w-full max-w-full m-auto"
                 alt="slide1"
               />
             </li>
             <li>
               <img
                 src={bannerTwo}
-                className="lg:w-3/4 max-w-full max-h-full m-auto"
+                className="lg:w-full max-w-full max-h-full m-auto"
                 alt="slide2"
               />
             </li>
             <li>
               <img
                 src={bannerThree}
-                className="lg:w-3/4 max-w-full max-h-full m-auto"
+                className="lg:w-full max-w-full max-h-full m-auto"
                 alt="slide3"
               />
             </li>

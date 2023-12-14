@@ -9,7 +9,7 @@ function Footer() {
     <>
       <div className="md:flex gap-10 justify-around items-center py-20 px-10 bg-black text-white">
         <div className="">
-          <img src={logo} alt="Exponential World" className="w-40 h-40 mb-2" />
+          <img src={logo} alt="Exponential World" className="w-32 mb-2" />
           <p>Login</p>
           <p>Courses</p>
           <p>About Us</p>

@@ -1,10 +1,11 @@
 // Header.js
-import React from "react";
+import React, { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import rocket from "../images/rocket.png";
 // import logoLight from "../images/logo_light_primary.png";
 import logo from "../images/exponential-world-logo.png";
 import SliderIndicatorsOutside from "./Slides";
+import { MdMenuOpen } from "react-icons/md";
 
 function Header() {
   const scrollToCourses = () => {
@@ -13,15 +14,33 @@ function Header() {
     //   smooth: true,
     // }); // You can adjust this based on your layout
 
-    scroll.scrollTo(860); // Scrolling to 100px from the top of the page.
+    scroll.scrollTo(1110); // Scrolling to 100px from the top of the page.
+  };
+
+  const scrollToCoursesMobile = () => {
+    scroll.scrollTo(570); // Scrolling to 100px from the top of the page.
   };
 
   const scrollToAboutUs = () => {
-    scroll.scrollTo(800 * 2);
+    scroll.scrollTo(920 * 2);
+  };
+
+  const scrollToAboutUsMobile = () => {
+    scroll.scrollTo(920 * 3.5);
   };
 
   const scrollToTestimonials = () => {
-    scroll.scrollTo(2060);
+    scroll.scrollTo(2360);
+  };
+
+  const scrollToTestimonialsMobile = () => {
+    scroll.scrollTo(2360 * 1.78);
+  };
+
+  const [isClicked, setIsClicked] = useState(false);
+
+  const handleMenuClick = () => {
+    setIsClicked(!isClicked);
   };
 
   return (
@@ -32,23 +51,62 @@ function Header() {
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
       >
-        <div className="lg:hidden flex justify-center items-center">
-          <img
-            src={logo}
-            className="w-40 h-40 m-auto"
-            alt="Exponential World"
-          />
+        <div className="lg:hidden flex justify-between mx-6 items-center">
+          <div>
+            <img src={logo} className="w-32 m-auto" alt="Exponential World" />
+          </div>
+          <MdMenuOpen onClick={handleMenuClick} size={28} color="white" />
         </div>
+        {isClicked ? (
+          <>
+            <div data-aos="fade-right" className="grid gap-5 lg:hidden">
+              <Link
+                className="cursor-pointer lg:text-lg md:text-base text-center text-white px-3 py-2 rounded-md shadow"
+                to="courses"
+                smooth={true}
+                duration={500}
+              >
+                <h2>Login</h2>
+              </Link>
+              <Link
+                className="cursor-pointer lg:text-lg md:text-base text-center text-white px-3 py-2 rounded-md shadow"
+                to="courses"
+                smooth={true}
+                duration={500}
+              >
+                <h2 onClick={scrollToCoursesMobile}>Courses</h2>
+              </Link>
+              <Link
+                className="cursor-pointer lg:text-lg md:text-base text-center text-white px-3 py-2 rounded-md shadow"
+                to="courses"
+                smooth={true}
+                duration={500}
+              >
+                <h2 onClick={scrollToAboutUsMobile}>About us</h2>
+              </Link>
+              <Link
+                className="cursor-pointer lg:text-lg md:text-base text-center text-white px-3 py-2 rounded-md hover:shadow"
+                to="courses"
+                smooth={true}
+                duration={500}
+              >
+                <h2 onClick={scrollToTestimonialsMobile}>Testimonials</h2>
+              </Link>
+            </div>
+          </>
+        ) : (
+          <></>
+        )}
         <div className="lg:flex hidden justify-around items-center top-0 w-full">
           <div className="px-10">
-            {/* <h2 className="text-3xl uppercase text-gradient-primary font-bold">
+            {/* <text className="text-3xl uppercase text-gradient-primary font-bold">
               Exponential World
-            </h2> */}
+            </text> */}
             <div className="flex justify-center items-center">
               <img
                 src={logo}
                 alt="Exponential World"
-                className="w-28 h-28 my-auto ml-20"
+                className="w-32 my-auto ml-20"
               />
               {/* <div>
                 <p className="text-lg text-white">Exponential</p>
