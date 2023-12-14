@@ -13,15 +13,15 @@ function Header() {
     //   smooth: true,
     // }); // You can adjust this based on your layout
 
-    scroll.scrollTo(770); // Scrolling to 100px from the top of the page.
+    scroll.scrollTo(860); // Scrolling to 100px from the top of the page.
   };
 
   const scrollToAboutUs = () => {
-    scroll.scrollTo(740 * 2);
+    scroll.scrollTo(800 * 2);
   };
 
   const scrollToTestimonials = () => {
-    scroll.scrollTo(1960);
+    scroll.scrollTo(2060);
   };
 
   return (
@@ -56,9 +56,9 @@ function Header() {
               </div> */}
             </div>
           </div>
-          <div className="flex ml-auto justify-center gap-4 items-center px-10 py-5 text-lg text-black">
+          <div className="flex ml-auto justify-center gap-4 items-center px-10 py-5 text-lg text-white">
             <Link
-              className="cursor-pointer lg:text-lg md:text-base hover:text-black px-3 py-2 hover:rounded-md hover:shadow"
+              className="cursor-pointer lg:text-lg md:text-base hover:text-white px-3 py-2 hover:rounded-md hover:shadow"
               to="courses"
               smooth={true}
               duration={500}
@@ -67,7 +67,7 @@ function Header() {
             </Link>
             {/* Use Link from react-scroll for smooth scrolling */}
             <Link
-              className="cursor-pointer lg:text-lg md:text-base hover:text-black px-3 py-2 hover:rounded-md hover:shadow"
+              className="cursor-pointer lg:text-lg md:text-base hover:text-white px-3 py-2 hover:rounded-md hover:shadow"
               to="courses"
               smooth={true}
               duration={500}
@@ -75,7 +75,7 @@ function Header() {
               <h2 onClick={scrollToCourses}>Courses</h2>
             </Link>
             <Link
-              className="cursor-pointer lg:text-lg md:text-base hover:text-black px-3 py-2 hover:rounded-md hover:shadow"
+              className="cursor-pointer lg:text-lg md:text-base hover:text-white px-3 py-2 hover:rounded-md hover:shadow"
               to="courses"
               smooth={true}
               duration={500}
@@ -83,7 +83,7 @@ function Header() {
               <h2 onClick={scrollToAboutUs}>About us</h2>
             </Link>
             <Link
-              className="cursor-pointer lg:text-lg md:text-base hover:text-black px-3 py-2 hover:rounded-md hover:shadow"
+              className="cursor-pointer lg:text-lg md:text-base hover:text-white px-3 py-2 hover:rounded-md hover:shadow"
               to="courses"
               smooth={true}
               duration={500}
@@ -92,7 +92,7 @@ function Header() {
             </Link>
           </div>
         </div>
-        <div className="flex justify-center gap-3 py-2 lg:pt-4 items-center md:text-5xl text-xl font-bold mt-12">
+        <div className="flex justify-center gap-3 py-2 lg:pt-4 items-center md:text-5xl text-xl font-bold mt-20 mb-10">
           <h2 className="text-white">Take off your </h2>
           <img src={rocket} alt="Sample" className="w-20 h-20 my-auto" />
           <h2 className="text-gradient-primary py-5 font-pacifico">

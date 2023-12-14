@@ -28,28 +28,28 @@ export default function SliderIndicatorsOutside() {
   return (
     <>
       {/*<!-- Component: Slider with indicators outside --> */}
-      <div className="relative w-full glide-05">
+      <div className="relative w-full glide-05 border-x-2 border-black bg-black">
         {/*    <!-- Slides --> */}
         <div className="overflow-hidden" data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
             <li>
               <img
                 src={bannerOne}
-                className="lg:w-4/6 max-w-full m-auto"
+                className="lg:w-3/4 max-w-full m-auto"
                 alt="slide1"
               />
             </li>
             <li>
               <img
                 src={bannerTwo}
-                className="lg:w-4/6 max-w-full max-h-full m-auto"
+                className="lg:w-3/4 max-w-full max-h-full m-auto"
                 alt="slide2"
               />
             </li>
             <li>
               <img
                 src={bannerThree}
-                className="lg:w-4/6 max-w-full max-h-full m-auto"
+                className="lg:w-3/4 max-w-full max-h-full m-auto"
                 alt="slide3"
               />
             </li>

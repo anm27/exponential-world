@@ -23,7 +23,8 @@
   display: inline-block;
   margin: 0;
   line-height: 1em;
-  background: linear-gradient(to right, #000 50%, #fff 50%);
+  /* background: linear-gradient(to right, #000 50%, #fff 50%); */
+  background: black;
 }
 
 .title-stroke {
