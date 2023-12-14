@@ -27,7 +27,7 @@ function Header() {
   return (
     <>
       <div
-        className="bg-header w-full h-screen font-dm-sans"
+        className="bg-header w-full font-dm-sans pt-2"
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
@@ -39,7 +39,7 @@ function Header() {
             alt="Exponential World"
           />
         </div>
-        <div className="lg:flex hidden items-center fixed top-0 w-full">
+        <div className="lg:flex hidden justify-around items-center top-0 w-full">
           <div className="px-10">
             {/* <h2 className="text-3xl uppercase text-gradient-primary font-bold">
               Exponential World
@@ -48,7 +48,7 @@ function Header() {
               <img
                 src={logo}
                 alt="Exponential World"
-                className="w-28 h-28 my-auto"
+                className="w-28 h-28 my-auto ml-20"
               />
               {/* <div>
                 <p className="text-lg text-white">Exponential</p>
@@ -56,7 +56,7 @@ function Header() {
               </div> */}
             </div>
           </div>
-          <div className="flex ml-auto justify-center gap-4 items-center px-10 py-5 text-lg text-white">
+          <div className="flex ml-auto justify-center gap-4 items-center px-10 py-5 text-lg text-white mr-20">
             <Link
               className="cursor-pointer lg:text-lg md:text-base hover:text-white px-3 py-2 hover:rounded-md hover:shadow"
               to="courses"
@@ -92,14 +92,17 @@ function Header() {
             </Link>
           </div>
         </div>
-        <div className="flex justify-center gap-3 py-2 lg:pt-4 items-center md:text-5xl text-xl font-bold mt-20 mb-10">
+        <div className="mt-6">
+          <SliderIndicatorsOutside />
+        </div>
+        <div className="flex bg-black justify-center gap-3 py-2 lg:pt-4 items-center md:text-5xl text-xl font-bold pt-6 mb-12">
           <h2 className="text-white">Take off your </h2>
           <img src={rocket} alt="Sample" className="w-20 h-20 my-auto" />
           <h2 className="text-gradient-primary py-5 font-pacifico">
             Trading Journey
           </h2>
         </div>
-        <SliderIndicatorsOutside />
+        {/* <SliderIndicatorsOutside /> */}
       </div>
     </>
   );
