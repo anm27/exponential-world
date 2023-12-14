@@ -153,9 +153,13 @@ function Header() {
         <div className="mt-6">
           <SliderIndicatorsOutside />
         </div>
-        <div className="flex bg-black justify-center gap-3 py-2 lg:pt-4 items-center md:text-5xl text-xl font-bold pt-6 mb-12">
+        <div className="flex bg-black justify-center gap-3 py-2 lg:pt-4 items-center md:text-5xl text-lg lg:text-5xl font-bold pt-6 mb-12">
           <h2 className="text-white">Take off your </h2>
-          <img src={rocket} alt="Sample" className="w-20 h-20 my-auto" />
+          <img
+            src={rocket}
+            alt="Sample"
+            className="lg:w-20 lg:h-20 md:w-20 md:h-20 w-10 h-10 my-auto"
+          />
           <h2 className="text-gradient-primary py-5 font-pacifico">
             Trading Journey
           </h2>
