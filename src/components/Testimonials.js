@@ -40,12 +40,14 @@ function Testimonials() {
     ),
   };
   return (
-    <div className="testimonial" style={{ marginBottom: "6%" }}>
-      <div style={{ width: "80%" }}>
-        <div className="text-center font-extrabold text-black title-stroke">
-          <h2 className="lg:text-4xl sm:text-xl mb-20">Our Testimonials</h2>
+    <div className="testimonial">
+      <div style={{ width: "100%" }} className="pb-10">
+        <div className="text-center font-extrabold text-black title-stroke ">
+          <h2 className="lg:text-4xl sm:text-xl mb-6">Our Testimonials</h2>
         </div>
-        <Slider {...settings}>{data.map(cards)}</Slider>
+        <Slider className="bg-gradient-primary" {...settings}>
+          {data.map(cards)}
+        </Slider>
       </div>
     </div>
   );
