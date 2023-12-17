@@ -8,7 +8,8 @@
 /* Primary gradient hex probable: #13b3ef */
 
 body {
-  background-color: #000;
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
   color: #fff !important;
 }
 
