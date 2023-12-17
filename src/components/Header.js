@@ -14,7 +14,7 @@ function Header() {
     //   smooth: true,
     // }); // You can adjust this based on your layout
 
-    scroll.scrollTo(1110); // Scrolling to 100px from the top of the page.
+    scroll.scrollTo(810); // Scrolling to 100px from the top of the page.
   };
 
   const scrollToCoursesMobile = () => {
@@ -22,7 +22,7 @@ function Header() {
   };
 
   const scrollToAboutUs = () => {
-    scroll.scrollTo(920 * 2);
+    scroll.scrollTo(920 * 1.8);
   };
 
   const scrollToAboutUsMobile = () => {
@@ -51,9 +51,9 @@ function Header() {
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
       >
-        <div className="lg:hidden flex justify-between mx-6 items-center">
+        <div className="lg:hidden flex justify-between mx-6 items-center shadow-indigo-500/50 shadow rounded-md px-2 mb-5">
           <div>
-            <img src={logo} className="w-32 m-auto" alt="Exponential World" />
+            <img src={logo} className="w-48 m-auto" alt="Exponential World" />
           </div>
           <MdMenuOpen onClick={handleMenuClick} size={28} color="white" />
         </div>
@@ -102,11 +102,11 @@ function Header() {
             {/* <text className="text-3xl uppercase text-gradient-primary font-bold">
               Exponential World
             </text> */}
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center shadow-indigo-500/50 shadow rounded-md px-2 ml-20">
               <img
                 src={logo}
                 alt="Exponential World"
-                className="w-32 my-auto ml-20"
+                className="w-48 my-auto"
               />
               {/* <div>
                 <p className="text-lg text-white">Exponential</p>

@@ -1,5 +1,5 @@
 import React from "react";
-import aboutBanner from "../images/banner-one.jpg";
+import aboutBanner from "../images/aboutExponentialWorld.png";
 
 function About() {
   return (

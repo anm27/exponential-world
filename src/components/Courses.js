@@ -56,7 +56,7 @@ function Courses() {
     <>
       <div
         data-aos="fade-right"
-        className="md:flex block gap-6 justify-center items-center px-5 lg:mt-10 -mt-6 z-50"
+        className="md:flex block gap-6 justify-center items-center px-5 lg:pt-10 -mt-6 z-50 bg-black"
       >
         <button
           onClick={showInvesting}
@@ -95,7 +95,7 @@ function Courses() {
               : "bg-purple-800 text-white"
           } shadow rounded-md`}
         >
-          Personal Dev
+          Skill Development
         </button>
       </div>
 
@@ -119,7 +119,7 @@ function Courses() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -176,7 +176,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -233,7 +233,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -290,7 +290,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -371,7 +371,7 @@ function Courses() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -428,7 +428,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -485,7 +485,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -542,7 +542,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -623,7 +623,7 @@ function Courses() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -680,7 +680,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -737,7 +737,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -794,7 +794,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -865,7 +865,7 @@ function Courses() {
           >
             {/* Content for Investing */}
             <p className="text-3xl font-semibold font-pacifico">
-              Personal Dev{" "}
+              Skill Development{" "}
             </p>
             <div className="text-center font-extrabold text-black title-stroke">
               <h2 className="lg:text-4xl sm:text-xl">Courses</h2>
@@ -877,7 +877,7 @@ function Courses() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -934,7 +934,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -991,7 +991,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
@@ -1048,7 +1048,7 @@ function Courses() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"

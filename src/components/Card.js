@@ -1,14 +1,15 @@
-// import { Avatar } from "@material-ui/core";
+import { IoPersonCircle } from "react-icons/io5";
 
 function Card(props) {
   return (
     <div className="main">
       <div className="Client-Card" style={{ display: "flex" }}>
-        {/* <Avatar
-          imgProps={{ style: { borderRadius: "50%" } }}
-          className="avatar"
+        <IoPersonCircle
+          // imgProps={{ style: { borderRadius: "50%" } }}
+          className=""
+          size={123}
           src={props.avatar}
-        /> */}
+        />
         <p style={{ marginTop: 25 }}>
           <span>&ldquo;</span>
           {props.message}

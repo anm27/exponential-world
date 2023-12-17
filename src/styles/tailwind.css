@@ -7,6 +7,11 @@
 
 /* Primary gradient hex probable: #13b3ef */
 
+body {
+  background-color: #000;
+  color: #fff !important;
+}
+
 .font-pacifico {
   font-family: "Pacifico", cursive;
 }
@@ -116,7 +121,7 @@
 .slick-slider {
   padding: 25px !important;
   border-radius: 50px !important;
-  box-shadow: 1px 3px 21px 9px #fff !important;
+  /* box-shadow: 1px 3px 21px 9px #9e9d9d !important; */
   min-width: auto;
 }
 
