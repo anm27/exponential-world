@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import Glide from "@glidejs/glide";
-import bannerOne from "../images/banner-one.jpg";
-import bannerTwo from "../images/banner-two.jpg";
-import bannerThree from "../images/banner-three.jpg";
+import bannerOne from "../images/banner-one.png";
+import bannerTwo from "../images/banner-two.png";
+import bannerThree from "../images/banner-three.png";
 
 export default function SliderIndicatorsOutside() {
   useEffect(() => {
@@ -35,21 +35,21 @@ export default function SliderIndicatorsOutside() {
             <li>
               <img
                 src={bannerOne}
-                className="lg:w-3/4 max-w-full m-auto"
+                className="lg:w-full max-w-full m-auto bg-contain"
                 alt="slide1"
               />
             </li>
             <li>
               <img
                 src={bannerTwo}
-                className="lg:w-3/4 max-w-full max-h-full m-auto"
+                className="lg:w-full max-w-full m-auto bg-contain"
                 alt="slide2"
               />
             </li>
             <li>
               <img
                 src={bannerThree}
-                className="lg:w-3/4 max-w-full max-h-full m-auto"
+                className="lg:w-full max-w-full m-auto bg-contain"
                 alt="slide3"
               />
             </li>

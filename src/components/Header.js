@@ -60,14 +60,14 @@ function Header() {
         {isClicked ? (
           <>
             <div data-aos="fade-right" className="grid gap-5 lg:hidden">
-              <Link
+              <a
                 className="cursor-pointer lg:text-lg md:text-base text-center text-white px-3 py-2 rounded-md shadow"
-                to="courses"
-                smooth={true}
-                duration={500}
+                href="https://exponentialworld.exlyapp.com/login"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <h2>Login</h2>
-              </Link>
+              </a>
               <Link
                 className="cursor-pointer lg:text-lg md:text-base text-center text-white px-3 py-2 rounded-md shadow"
                 to="courses"
@@ -115,14 +115,14 @@ function Header() {
             </div>
           </div>
           <div className="flex ml-auto justify-center gap-4 items-center px-10 py-5 text-lg text-white mr-20">
-            <Link
-              className="cursor-pointer lg:text-lg md:text-base hover:text-white px-3 py-2 hover:rounded-md hover:shadow"
-              to="courses"
-              smooth={true}
-              duration={500}
+            <a
+              className="cursor-pointer lg:text-lg md:text-base text-center text-white px-3 py-2 rounded-md shadow"
+              href="https://exponentialworld.exlyapp.com/login"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <h2>Login</h2>
-            </Link>
+            </a>
             {/* Use Link from react-scroll for smooth scrolling */}
             <Link
               className="cursor-pointer lg:text-lg md:text-base hover:text-white px-3 py-2 hover:rounded-md hover:shadow"
