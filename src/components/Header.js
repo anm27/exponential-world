@@ -154,7 +154,7 @@ function Header() {
           <SliderIndicatorsOutside />
         </div>
         <div className="flex bg-black justify-center gap-3 py-2 lg:pt-4 items-center md:text-5xl text-lg lg:text-5xl font-bold pt-6 mb-12">
-          <h2 className="text-white">Take off your </h2>
+          <h2 className="text-white font-dm-sans">Take off your </h2>
           <img
             src={rocket}
             alt="Sample"

@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import thumb1 from "../images/THUMBNAILS/1.png";
+// import thumb1 from "../images/THUMBNAILS/1.png";
 import thumb2 from "../images/THUMBNAILS/2.png";
-import thumb3 from "../images/THUMBNAILS/3.png";
+// import thumb3 from "../images/THUMBNAILS/3.png";
 import thumb4 from "../images/THUMBNAILS/4.png";
 import thumb5 from "../images/THUMBNAILS/5.png";
 import thumb6 from "../images/THUMBNAILS/6.png";
 import thumb7 from "../images/THUMBNAILS/7.png";
 import thumb8 from "../images/THUMBNAILS/8.png";
 import thumb9 from "../images/THUMBNAILS/9.png";
-import thumb10 from "../images/THUMBNAILS/10.png";
+// import thumb10 from "../images/THUMBNAILS/10.png";
 import thumb11 from "../images/THUMBNAILS/11.png";
 import thumb12 from "../images/THUMBNAILS/12.png";
 import thumb13 from "../images/THUMBNAILS/13.png";
@@ -123,10 +123,15 @@ function Courses() {
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
-                  src={thumb1}
+                  src={thumb8}
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Basics of personal finance
+                  </h2>
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
@@ -180,10 +185,15 @@ function Courses() {
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
-                  src={thumb2}
+                  src={thumb9}
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Financial freedom blueprint
+                  </h2>
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
@@ -237,10 +247,15 @@ function Courses() {
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
-                  src={thumb3}
+                  src={thumb7}
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Basics of financial markets
+                  </h2>
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
@@ -298,6 +313,11 @@ function Courses() {
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Portfolio building formula
+                  </h2>
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
@@ -379,6 +399,11 @@ function Courses() {
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Basics of f & o
+                  </h2>
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
@@ -396,7 +421,7 @@ function Courses() {
                           size={15}
                           color="darkcyan"
                         />
-                        <h2 className="ml-4">4.9 (15 ratings)</h2>
+                        <h2 className="ml-4 text-sm">4.9 (15 ratings)</h2>
                       </div>
 
                       <div className={`flex gap-2 my-1`}>
@@ -436,6 +461,11 @@ function Courses() {
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Technical analysis basics
+                  </h2>
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
@@ -453,7 +483,7 @@ function Courses() {
                           size={15}
                           color="darkcyan"
                         />
-                        <h2 className="ml-4">4.9 (15 ratings)</h2>
+                        <h2 className="ml-4 text-sm">4.9 (15 ratings)</h2>
                       </div>
 
                       <div className={`flex gap-2 my-1`}>
@@ -489,10 +519,15 @@ function Courses() {
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
-                  src={thumb7}
+                  src={thumb14}
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Technical analysis intensive
+                  </h2>
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
@@ -510,7 +545,7 @@ function Courses() {
                           size={15}
                           color="darkcyan"
                         />
-                        <h2 className="ml-4">4.9 (15 ratings)</h2>
+                        <h2 className="ml-4 text-sm">4.9 (15 ratings)</h2>
                       </div>
 
                       <div className={`flex gap-2 my-1`}>
@@ -546,10 +581,15 @@ function Courses() {
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
-                  src={thumb8}
+                  src={thumb16}
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Options trading secrets
+                  </h2>
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
@@ -567,7 +607,69 @@ function Courses() {
                           size={15}
                           color="darkcyan"
                         />
-                        <h2 className="ml-4">4.9 (15 ratings)</h2>
+                        <h2 className="ml-4 text-sm">4.9 (15 ratings)</h2>
+                      </div>
+
+                      <div className={`flex gap-2 my-1`}>
+                        <h2 className={`text-cyan-700 line-through`}>
+                          Rs. 7999
+                        </h2>
+                        <h2 className={`text-cyan-700`}>Rs. 5499</h2>
+                      </div>
+                    </div>
+                    <button className={`px-3 py-2 bg-cyan-700 rounded-md`}>
+                      <h2
+                        className={`text-white font-bold text-xs text-center`}
+                      >
+                        ENROLL NOW!
+                      </h2>
+                    </button>
+                  </div>
+                </div>
+                <div className="px-6 pt-4 pb-2">
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #stock
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #market
+                  </span>
+                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                    #training
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="shadow-indigo-500/50 shadow-2xl">
+              <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <img
+                  className="w-full"
+                  src={thumb15}
+                  alt="Sunset in the mountains"
+                />
+                <div className="px-6 py-4">
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Options trading mastery
+                  </h2>
+                  <h2 className={`text-base font-semibold text-gray-500 px-2`}>
+                    By Paras Sir
+                  </h2>
+                  <div className={`flex-row justify-beeen items-center w-75`}>
+                    <div
+                      className={`grid justify-between items-center my-2 px-2`}
+                    >
+                      <div className={`flex items-center gap-.5 my-1`}>
+                        <FaStar name="star" size={15} color="darkcyan" />
+                        <FaStar name="star" size={15} color="darkcyan" />
+                        <FaStar name="star" size={15} color="darkcyan" />
+                        <FaStar name="star" size={15} color="darkcyan" />
+                        <FaStarHalfAlt
+                          name="star-half-empty"
+                          size={15}
+                          color="darkcyan"
+                        />
+                        <h2 className="ml-4 text-sm">4.9 (15 ratings)</h2>
                       </div>
 
                       <div className={`flex gap-2 my-1`}>
@@ -627,67 +729,15 @@ function Courses() {
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
-                  src={thumb9}
+                  src={thumb2}
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
-                  <h2 className={`text-base font-semibold text-gray-500 px-2`}>
-                    By Paras Sir
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Passive income blueprint
                   </h2>
-                  <div className={`flex-row justify-beeen items-center w-75`}>
-                    <div
-                      className={`grid justify-between items-center my-2 px-2`}
-                    >
-                      <div className={`flex items-center gap-.5 my-1`}>
-                        <FaStar name="star" size={15} color="darkcyan" />
-                        <FaStar name="star" size={15} color="darkcyan" />
-                        <FaStar name="star" size={15} color="darkcyan" />
-                        <FaStar name="star" size={15} color="darkcyan" />
-                        <FaStarHalfAlt
-                          name="star-half-empty"
-                          size={15}
-                          color="darkcyan"
-                        />
-                        <h2 className="ml-4">4.9 (15 ratings)</h2>
-                      </div>
-
-                      <div className={`flex gap-2 my-1`}>
-                        <h2 className={`text-cyan-700 line-through`}>
-                          Rs. 7999
-                        </h2>
-                        <h2 className={`text-cyan-700`}>Rs. 5499</h2>
-                      </div>
-                    </div>
-                    <button className={`px-3 py-2 bg-cyan-700 rounded-md`}>
-                      <h2
-                        className={`text-white font-bold text-xs text-center`}
-                      >
-                        ENROLL NOW!
-                      </h2>
-                    </button>
-                  </div>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #stock
-                  </span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #market
-                  </span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #training
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="shadow-indigo-500/50 shadow-2xl">
-              <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img
-                  className="w-full"
-                  src={thumb10}
-                  alt="Sunset in the mountains"
-                />
-                <div className="px-6 py-4">
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
@@ -745,6 +795,11 @@ function Courses() {
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Portfolio protection formula
+                  </h2>
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
@@ -798,10 +853,15 @@ function Courses() {
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
-                  src={thumb12}
+                  src={thumb13}
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    6 figure trader challenge
+                  </h2>
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
@@ -881,10 +941,15 @@ function Courses() {
               <div className="max-w-sm rounded overflow-hidden shadow-lg">
                 <img
                   className="w-full"
-                  src={thumb13}
+                  src={thumb12}
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Master crypto markets
+                  </h2>
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
@@ -942,120 +1007,11 @@ function Courses() {
                   alt="Sunset in the mountains"
                 />
                 <div className="px-6 py-4">
-                  <h2 className={`text-base font-semibold text-gray-500 px-2`}>
-                    By Paras Sir
+                  <h2
+                    className={`text-base font-semibold text-white px-2 capitalize`}
+                  >
+                    Master commodities market
                   </h2>
-                  <div className={`flex-row justify-beeen items-center w-75`}>
-                    <div
-                      className={`grid justify-between items-center my-2 px-2`}
-                    >
-                      <div className={`flex items-center gap-.5 my-1`}>
-                        <FaStar name="star" size={15} color="darkcyan" />
-                        <FaStar name="star" size={15} color="darkcyan" />
-                        <FaStar name="star" size={15} color="darkcyan" />
-                        <FaStar name="star" size={15} color="darkcyan" />
-                        <FaStarHalfAlt
-                          name="star-half-empty"
-                          size={15}
-                          color="darkcyan"
-                        />
-                        <h2 className="ml-4">4.9 (15 ratings)</h2>
-                      </div>
-
-                      <div className={`flex gap-2 my-1`}>
-                        <h2 className={`text-cyan-700 line-through`}>
-                          Rs. 7999
-                        </h2>
-                        <h2 className={`text-cyan-700`}>Rs. 5499</h2>
-                      </div>
-                    </div>
-                    <button className={`px-3 py-2 bg-cyan-700 rounded-md`}>
-                      <h2
-                        className={`text-white font-bold text-xs text-center`}
-                      >
-                        ENROLL NOW!
-                      </h2>
-                    </button>
-                  </div>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #stock
-                  </span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #market
-                  </span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #training
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="shadow-indigo-500/50 shadow-2xl">
-              <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img
-                  className="w-full"
-                  src={thumb15}
-                  alt="Sunset in the mountains"
-                />
-                <div className="px-6 py-4">
-                  <h2 className={`text-base font-semibold text-gray-500 px-2`}>
-                    By Paras Sir
-                  </h2>
-                  <div className={`flex-row justify-beeen items-center w-75`}>
-                    <div
-                      className={`grid justify-between items-center my-2 px-2`}
-                    >
-                      <div className={`flex items-center gap-.5 my-1`}>
-                        <FaStar name="star" size={15} color="darkcyan" />
-                        <FaStar name="star" size={15} color="darkcyan" />
-                        <FaStar name="star" size={15} color="darkcyan" />
-                        <FaStar name="star" size={15} color="darkcyan" />
-                        <FaStarHalfAlt
-                          name="star-half-empty"
-                          size={15}
-                          color="darkcyan"
-                        />
-                        <h2 className="ml-4">4.9 (15 ratings)</h2>
-                      </div>
-
-                      <div className={`flex gap-2 my-1`}>
-                        <h2 className={`text-cyan-700 line-through`}>
-                          Rs. 7999
-                        </h2>
-                        <h2 className={`text-cyan-700`}>Rs. 5499</h2>
-                      </div>
-                    </div>
-                    <button className={`px-3 py-2 bg-cyan-700 rounded-md`}>
-                      <h2
-                        className={`text-white font-bold text-xs text-center`}
-                      >
-                        ENROLL NOW!
-                      </h2>
-                    </button>
-                  </div>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #stock
-                  </span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #market
-                  </span>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #training
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="shadow-indigo-500/50 shadow-2xl">
-              <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img
-                  className="w-full"
-                  src={thumb16}
-                  alt="Sunset in the mountains"
-                />
-                <div className="px-6 py-4">
                   <h2 className={`text-base font-semibold text-gray-500 px-2`}>
                     By Paras Sir
                   </h2>
